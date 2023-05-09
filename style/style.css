@@ -1,0 +1,158 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&family=Space+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( to right, #2671ab 0%,
+    #2671ab 50%,  rgb(29, 28, 28) 50%, black 100%
+  );
+}
+
+#logo{
+position: relative;
+width: 150px;
+height: 150px;
+left: 0px;
+top: -11px;
+}
+
+nav{
+    padding: 10px;
+    background-color: white;
+    position: fixed;
+    text-decoration: none;
+    border: 50px;
+    float: top;
+    width: 20%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+  }
+
+nav li{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.758);
+    margin: 10px;
+    transition: 1s;
+}
+
+nav li:hover{
+    text-decoration: none;
+    border-top: 3px solid rgba(0, 0, 0, 0.758);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.758);
+    padding: 5px; 
+    font-size: 20px;
+    transition: 1s;
+}
+
+
+  .homediv{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( to right, #2671ab 0%,
+    #2671ab 50%,  rgb(29, 28, 28) 50%, black 100%
+  );
+  }
+
+
+  
+  .homepg{
+    text-align: center;
+    font-size: 76px;
+    position: absolute;
+    width: 557px;
+    height: 232px;
+    left: 650px;
+    top: 260px;
+  }
+
+  .aboutdiv h2{
+    width: 557px;
+    height: 232px;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 77px;
+    }
+
+  .aboutdiv{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( to right, #2671ab 0%,
+    #2671ab 50%,  rgb(29, 28, 28) 50%, black 100%
+  );
+  }
+  
+  .aboutme{
+    position: relative;
+    width: 643px;
+    height: 420px;
+    top: -150px;
+    color: white;
+  }
+
+  .mypic{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 1050px;
+    top:  800px;
+    border-radius: 165.5px; 
+  }
+
+  .moreinfo{
+   position: relative;
+   width: 378px;
+   height: 168px;
+   top: -280px; 
+  }
+
+  .resumediv{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( to right, #2671ab 0%,
+    #2671ab 50%,  rgb(29, 28, 28) 50%, black 100%
+  );
+  }
+
+   .resumediv h2{
+    width: 557px;
+    height: 232px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    float: right;
+    color: #2671ab;
+    }
+
+  .projectsdiv{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( to right, #2671ab 0%,
+    #2671ab 50%,  rgb(29, 28, 28) 50%, black 100%
+  );
+  }
+
+  .projectsdiv h2{
+    width: 557px;
+    height: 232px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    }
+
+  .testsdiv{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( to right, #2671ab 0%,
+    #2671ab 50%,  rgb(29, 28, 28) 50%, black 100%
+  );
+  }
