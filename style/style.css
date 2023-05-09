@@ -76,12 +76,39 @@ nav li:hover{
   }
 
   .aboutdiv h2{
-    width: 557px;
+    /* width: 545px;
     height: 232px;
     font-weight: 600;
     font-size: 44px;
     line-height: 77px;
+    text-align: center; */
+    margin: 0;
+    line-height: 1;
+    font-size: 10em;
+    color: transparent;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    animation: animate 5s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
     }
+
+    @keyframes animate{
+        0%{
+            background-position: 0 100%;
+        }
+
+        50%{
+            background-position: 100% 0;
+        }
+    }
+
+    /* .aspiring{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    } */
 
   .aboutdiv{
     width: 100%;
@@ -93,19 +120,20 @@ nav li:hover{
   
   .aboutme{
     position: relative;
-    width: 643px;
+    width: 500px;
     height: 420px;
     top: -150px;
-    color: white;
+    color: rgb(29, 28, 28);
+    text-align: justify;
   }
 
   .mypic{
     position: absolute;
-    width: 400px;
-    height: 400px;
+    width: 370px;
+    height: 370px;
     left: 1050px;
-    top:  800px;
-    border-radius: 165.5px; 
+    top:  680px;
+    /* border-radius: 165.5px;  */
   }
 
   .moreinfo{
@@ -113,6 +141,7 @@ nav li:hover{
    width: 378px;
    height: 168px;
    top: -280px; 
+   color: white;
   }
 
   .resumediv{
